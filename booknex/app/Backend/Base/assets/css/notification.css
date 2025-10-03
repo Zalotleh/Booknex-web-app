@@ -1,0 +1,249 @@
+.booknetic_notification_area {
+  position: relative;
+  margin-left: auto;
+  padding: 0 !important;
+}
+
+.booknetic_notification_button {
+  margin: 20px;
+  border: none;
+  background-color: #f1f5f9;
+  border-radius: 0.375rem;
+  padding: 8px;
+  margin-right: 5px;
+  outline: none !important;
+  position: relative;
+}
+
+.booknetic_notification_button:hover {
+  background-color: #dae1e9;
+}
+
+.notification-badge {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  width: 0.625rem;
+  height: 0.625rem;
+  background-color: #fb3e6e;
+  border-radius: 50%;
+}
+
+.booknetic_notification_panel {
+  font-family: Poppins;
+  background-color: #fff;
+  position: absolute;
+  top: 4.3rem;
+  left: -7.69rem;
+  width: 320px;
+  border: 1px solid #ecf1fe;
+  box-shadow: 3px 3px 3px 0 #e4ebf4;
+}
+
+.notification_panel_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 0.38rem;
+  border-bottom: 1px solid #ecf1fe;
+}
+
+.notification_panel_header h5 {
+  all: unset;
+  color: #292d32;
+  font-size: 12px;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.notification_panel_header p {
+  all: unset;
+  color: #8895a0;
+  font-size: 12px;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.notification_panel_clear_btn {
+  color: #626c76;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-weight: 400;
+  outline: none !important;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.booknetic_notification_pointer {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid #ccd7de;
+}
+
+.notification-body {
+  overflow-y: auto;
+  min-height: 14rem;
+  max-height: 30rem;
+  scrollbar-width: none;
+}
+
+.notification-card {
+  padding: 16px;
+}
+
+.notification-body .notification-card:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.notification-card_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #666670;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.notification-content {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-block: 8px;
+}
+
+.notification-card a {
+  color: #7e82ff;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.notification-card p {
+  margin: 0;
+}
+
+.notification-card img {
+  margin-right: 5px;
+}
+
+.unread-notification {
+  background: rgba(71, 120, 245, 0.15);
+}
+
+.unread-notification .learn_more_icon img {
+  position: relative;
+  transform: rotate(-45deg);
+}
+
+.learn_more_icon {
+  margin-left: 2px;
+}
+
+.notification_time_badge {
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 50%;
+  background-color: #7e82ff;
+}
+
+/* carousel style */
+.notification-carousel-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.notification-carousel-wrapper {
+  display: flex;
+  padding: 1rem;
+  gap: 0.625rem;
+  margin: 0;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 1rem;
+  scrollbar-width: none;
+  transition: all 0.5s ease;
+  scroll-behavior: smooth;
+}
+
+.notification-carousel-item {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+  padding: 20px;
+  width: 280px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  display: inline-block;
+  border-radius: 0.4rem;
+}
+
+.notification-carousel-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9d9d9d;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.notification-carousel-item-header button {
+  all: unset;
+  cursor: pointer;
+}
+
+.notification-carousel-item-header p {
+  margin: 0;
+}
+
+.notification-carousel-item-content {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-block: 8px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.notification-carousel-item a {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.notification-carousel-item a .learn_more_icon img {
+  transform: rotate(-45deg);
+}
+
+.notification-survey {
+  background: #292d32;
+  color: #fff;
+}
+
+.notification-survey a {
+  color: #fc9c79;
+}
+
+.notification-survey a .learn_more_icon path {
+  stroke: #fc9c79;
+}
+
+.notification-addon {
+  background-color: #9747ff;
+  color: #fff;
+}
+
+.notification-addon p span {
+  color: #fff;
+}
+
+.notification-addon a {
+  color: #fff;
+}
+
+.notification-addon a .learn_more_icon path {
+  stroke: #fff;
+}

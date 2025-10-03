@@ -1,0 +1,151 @@
+.custom-tooltip {
+  font-family: Poppins;
+  color: #fff;
+  background-color: #6c70dc;
+  border-radius: 0.375rem;
+  padding: 0;
+  z-index: -1;
+  width: 250px;
+}
+
+.introjs-tooltipbuttons {
+  border-top: none;
+}
+
+.introjs-tooltiptext {
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-align: left;
+  padding: 12px;
+}
+
+.introjs-tooltiptext:before {
+  content: "";
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  border: 1px solid #ffffff1a;
+  margin-bottom: 10px;
+}
+
+.introjs-tooltip-header {
+  padding: 12px;
+  padding-bottom: 0;
+}
+
+.introjs-skipbutton {
+  display: none;
+}
+
+.introjs-button {
+  background-color: #fff;
+  border-radius: 0.375rem;
+  color: #6c70dc;
+}
+
+.introjs-button.introjs-disabled {
+  filter: brightness(80%);
+  border: none;
+  color: #fff;
+}
+
+.introjs-tooltipbuttons {
+  position: relative;
+}
+
+.introjs-tooltipbuttons:before {
+  content: "Skip";
+  display: block;
+  padding: 6px 12px;
+  color: #fff;
+  filter: brightness(100%) !important;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: 0.8rem;
+  left: 7rem;
+  text-shadow: none;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.disable-next-btn {
+  filter: brightness(70%);
+  cursor: initial;
+}
+
+.introjs-button.introjs-prevbutton {
+  display: none;
+}
+
+.introjs-button:focus {
+  color: #6c70dc;
+  border: none;
+}
+
+.introjs-tooltip-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: normal;
+  width: 100%;
+}
+
+.introjs-bullets {
+  display: none;
+}
+
+.introjs-arrow.bottom {
+  border-top-color: #6c70dc;
+  bottom: -8px;
+}
+
+.introjs-arrow.top {
+  border-bottom-color: #6c70dc;
+  top: -8px;
+}
+
+.introjs-arrow.left,
+.introjs-arrow.left-bottom,
+.introjs-arrow.left-top,
+.introjs-arrow.left-middle {
+  border-right-color: #6c70dc;
+  left: -8px;
+}
+
+.introjs-arrow.top-middle {
+  border-bottom-color: #6c70dc;
+  top: -8px;
+}
+
+.introjs-arrow.bottom-middle {
+  border-top-color: #6c70dc;
+  bottom: -8px;
+}
+
+.introjs-arrow.right,
+.introjs-arrow.right-bottom,
+.introjs-arrow.right-top,
+.introjs-arrow.right-middle {
+  border-left-color: #6c70dc;
+  right: -8px;
+}
+
+.introjs-helperNumberLayer {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+.introjs-helperLayer {
+  z-index: 99 !important;
+}
+
+.introjs-overlay {
+  z-index: 100;
+}

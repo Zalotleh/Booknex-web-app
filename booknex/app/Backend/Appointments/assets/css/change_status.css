@@ -1,0 +1,32 @@
+.fs-modal .appointment-status-btn > button
+{
+	width: calc(100% - 10px);
+	text-align: left;
+}
+
+.fs-modal .appointment-status-btn i
+{
+	padding-right: 5px;
+}
+
+.fs-modal .appointment-status-btn img
+{
+	float: right;
+	padding-top: 9px;
+}
+
+.fs-modal .appointment-status-panel i
+{
+	width: 20px;
+}
+
+.fs-modal .appointment-status-panel a
+{
+	color: #292D32;
+	font-size: 14px;
+}
+.fs-modal .dropdown-menu.appointment-status-panel
+{
+	max-height: 250px;
+	overflow-y: auto;
+}
